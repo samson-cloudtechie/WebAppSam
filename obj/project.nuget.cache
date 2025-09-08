@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/Kk/BVM/4aQ=",
+  "dgSpecHash": "vCer3y80B2s=",
   "success": true,
   "projectFilePath": "C:\\Users\\PAGOLU SUSMITHA\\Desktop\\AllFiles\\Applications\\SamWebApp\\SamWebApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\PAGOLU SUSMITHA\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512",
     "C:\\Users\\PAGOLU SUSMITHA\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.304\\microsoft.net.sdk.compilers.toolset.9.0.304.nupkg.sha512",
     "C:\\Users\\PAGOLU SUSMITHA\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.19\\microsoft.windowsdesktop.app.ref.8.0.19.nupkg.sha512",
     "C:\\Users\\PAGOLU SUSMITHA\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.19\\microsoft.netcore.app.ref.8.0.19.nupkg.sha512",
