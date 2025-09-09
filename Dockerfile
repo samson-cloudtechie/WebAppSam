@@ -1,7 +1,7 @@
 # See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
 # STAGE01 - Build application and its dependencies  
-FROM microsoft/dotnet:2.1-sdk AS build-env  
+FROM microsoft/dotnet:8.0-sdk AS build-env  
 WORKDIR /app  
 COPY SamWebApp/*.csproj ./  
 COPY . ./  
@@ -12,7 +12,7 @@ FROM build-env AS publish
 RUN dotnet publish -c Release -o /app  
   
 # STAGE03 - Create the final image  
-FROM microsoft/dotnet:2.1-aspnetcore-runtime  
+FROM microsoft/dotnet:8.0-aspnetcore-runtime  
 WORKDIR /app  
 LABEL Author="SamsonD"  
 LABEL Maintainer="quickdevnotes"  
