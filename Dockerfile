@@ -3,7 +3,7 @@
 # STAGE01 - Build application and its dependencies  
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env  
 WORKDIR /app  
-COPY SamWebApp/*.csproj ./  
+COPY SamWebApp*.csproj ./  
 COPY . ./  
 RUN dotnet restore   
   
